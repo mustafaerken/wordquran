@@ -1,0 +1,221 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(30,30,30);
+  color: wheat;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.duration{
+  position: fixed;
+  top:70px;
+  left: 0px;
+}
+
+.sureView{
+  padding: 15px;
+}
+.sureAyah{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.besmele{
+  display: flex;
+  justify-content: center;
+  font-family: Hamdullah;
+  font-size: 30;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  color: wheat;
+}
+
+
+@font-face {
+  font-family: Hamdullah;
+  src: url(./data/fonts/Hamdullah.ttf);
+}
+.Ayah{
+  display: flex;
+}
+.WordsContanier{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Arabian{
+  margin-right: 3px;
+  margin-left: 3px;
+  font-family: Hamdullah;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+.Language{
+  width: 90%;
+  font-size: 10px;
+  text-align: center;
+  color: wheat;
+}
+.AyahNumber{
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-top:30px;
+  font-size: 15px;
+  color: chocolate;
+}
+.AyahNumberButton2{
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-top:30px;
+  font-size: 15px;
+  color: red;
+}
+.AyahNumberButton{
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-top:30px;
+  font-size: 15px;
+  color: chocolate;
+}
+
+
+
+button{
+  font-size: 18px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: black;
+  color: wheat;
+  border: none;
+  border-radius: 3px;
+}
+button:hover{
+  background-color: wheat;
+  color:black;
+}
+select{
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+select:hover{
+  background-color: wheat;
+  color:black;
+}
+.navBar{
+  padding-left: 4%;
+  padding-right: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  height: 7%;
+}
+.selectLanguage{
+  font-size: 12px;
+  width: 5%;
+  height: 70%;
+  background-color: black;
+  border-color: black;
+  color: wheat;
+}
+.buttonPass {
+  border-right: solid 20px wheat;
+  border-bottom: solid 10px transparent;
+  border-top: solid 10px transparent;
+  border-radius: 0;
+}
+.buttonPass:hover{
+  border-right: solid 20px chocolate;
+  background-color: black;
+}
+.buttonPass2:hover{
+  border-left: solid 20px chocolate;
+  background-color: black;
+}
+.buttonPass2 {
+  border-left: solid 20px wheat;
+  border-bottom: solid 10px transparent;
+  border-top: solid 10px transparent;
+  border-radius: 0;
+}
+.selectSurah {
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+  border-color: wheat;
+  background-color: black;
+  color: wheat;
+}
+.selectSurahContanier {
+  width: 30%;
+  height: 60%;
+  max-width: 170px;
+}
+.buttonAudio{
+  font-size: 15px;
+  width: 5%;
+  background-color: black;
+  color: wheat;
+}
+.player{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  height: 45px;
+  width: 100%;
+}
+.play {
+  margin-left: 7%;
+  margin-right: 7%;
+  border-left: solid 30px red;
+  border-bottom: solid 15px transparent;
+  border-top: solid 15px transparent;
+  border-radius: 0;
+  }
+.paused {
+  margin-left: 7%;
+  margin-right: 7%;
+  width: 30px;
+  height: 30px;
+  border-color: red;
+  border-style: double;
+  border-width: 0px 0px 0px 30px;
+  border-radius: 0;
+  }
+  .paused:hover{
+    background-color: black;
+    border-color: wheat;
+  }
+  .play:hover{
+    border-left: solid 30px wheat;
+    background-color: black;
+  }
+  .playerReload{
+    margin-left: 7%;
+    margin-right: 7%;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: red;
+    font-size: 40px;
+  }
+  .playerReload:hover{
+    background-color: black;
+    color: wheat;
+  }
+  .playerSurahName{
+    letter-spacing: 5;
+    background-color: black;
+    color: red;
+    font-size: 25px;
+  }
